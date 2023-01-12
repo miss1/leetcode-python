@@ -1,8 +1,7 @@
 class Solution:
-  def isPalindrome(self, x: int) -> bool:
-    return ''.join(reversed(str(x))) == ''.join(str(x))
+    def isPalindrome(self, x: int) -> bool:
+        return ''.join(reversed(str(x))) == ''.join(str(x))
 
-  def isPalindrome2(self, x: int) -> bool:
-    x_str = str(x)
-    return x_str == x_str[::-1]
-
+    def isPalindrome2(self, x: int) -> bool:
+        x_str = str(x)
+        return x_str == x_str[::-1]
