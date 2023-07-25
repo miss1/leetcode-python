@@ -31,3 +31,15 @@ delete
 
 遍历
 * for in range(start, end, step)
+* continue
+* break
+
+无穷大(小)
+* float('inf')
+* float('-inf')
+
+除法
+* 舍弃小数部分：a // b
+* 向上取整：math.ceil(1.1) => 2
+* 向下取整：math.floor(1.1) => 1
+* 四舍五入：round(a)
