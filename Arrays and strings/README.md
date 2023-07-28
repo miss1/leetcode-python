@@ -27,10 +27,10 @@ delete
 * [1, 2, 3] + [4, 5, 6] >> [1, 2, 3, 4, 5, 6]
 * ['Hi!'] * 4 >> ['Hi!', 'Hi!', 'Hi!', 'Hi!']
 * 3 in [1, 2, 3] >> true
-* for x in [1, 2, 3]: print(x, end=" ")
 
 遍历
 * for in range(start, end, step)
+* for x in [1, 2, 3]: print(x, end=" ")
 * continue
 * break
 
@@ -43,3 +43,7 @@ delete
 * 向上取整：math.ceil(1.1) => 2
 * 向下取整：math.floor(1.1) => 1
 * 四舍五入：round(a)
+
+排序
+* sorted(): sorted_list = sorted(my_list, reverse=True), 返回新list，不会改变原始list
+* list.sort(): 改变原始列表
