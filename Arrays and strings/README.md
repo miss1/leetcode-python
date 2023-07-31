@@ -47,3 +47,20 @@ delete
 排序
 * sorted(): sorted_list = sorted(my_list, reverse=True), 返回新list，不会改变原始list
 * list.sort(): 改变原始列表
+
+## String
+* 大小写判断和转换
+* s.isupper()
+* s.islower()
+* s.upper()
+* s.lower()
+
+## String to List
+* str = 'abcde'
+* arr = list(str) -> arr = [a,b,c,d,e]
+* arr = str.split('') -> arr = [a,b,c,d,e]
+
+## List to String
+* arr = [a,b,c,d,e]
+* str = ','.join(arr) -> str = a,b,c,d,e
+
