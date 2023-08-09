@@ -27,3 +27,4 @@ class Solution:
                 res = max(res, abs(node.val - dMax))
             return (min(dMin, node.val), max(dMax, node.val), res)
         return dfs(root)[2]
+    
