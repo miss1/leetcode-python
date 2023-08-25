@@ -55,18 +55,22 @@ delete
 * s.upper()
 * s.lower()
 
-## String to List
+String to List
 * str = 'abcde'
 * arr = list(str) -> arr = [a,b,c,d,e]
 * arr = str.split('') -> arr = [a,b,c,d,e]
 
-## List to String
+List to String
 * arr = [a,b,c,d,e]
 * str = ','.join(arr) -> str = a,b,c,d,e
 * 在string中插入间隔符：'#'.join(s) -> s = 'ab', '#'.join(s) = '#a#b#'
 
 
-## 正则
+正则
 * import re
 * re.match(pattern, s)
 * eg: pattern = r'^[0-9a-fA-F]+$'   判断s中是否只包含0-9, a-f, A-F
+
+str和Unicode
+* str to unicode -> ord('a')
+* unicode to str -> chr(97)
