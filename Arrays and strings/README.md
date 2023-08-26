@@ -22,6 +22,11 @@ delete
 * list1.pop()
 * list1.remove(val) >> 删除匹配的第一个val
 
+Counter
+* 统计列表中元素出现的次数
+* my_list = [1, 2, 3, 2, 1, 3, 4, 2]
+* counter = Counter(my_list) -> {2: 3, 1: 2, 3: 2, 4: 1}
+
 操作
 * len([1, 2, 3]) >> 3
 * [1, 2, 3] + [4, 5, 6] >> [1, 2, 3, 4, 5, 6]
@@ -46,6 +51,7 @@ delete
 
 排序
 * sorted(): sorted_list = sorted(my_list, reverse=True), 返回新list，不会改变原始list
+* sorted_list_descending = sorted(my_list, key=lambda x: x[1], reverse=True)
 * list.sort(): 改变原始列表
 
 ## String
@@ -64,6 +70,11 @@ List to String
 * arr = [a,b,c,d,e]
 * str = ','.join(arr) -> str = a,b,c,d,e
 * 在string中插入间隔符：'#'.join(s) -> s = 'ab', '#'.join(s) = '#a#b#'
+
+String to Number
+* s = str(num)
+* num = int(s)
+* float_num = float(s)
 
 
 正则
