@@ -27,6 +27,12 @@ Counter
 * my_list = [1, 2, 3, 2, 1, 3, 4, 2]
 * counter = Counter(my_list) -> {2: 3, 1: 2, 3: 2, 4: 1}
 
+accumulate
+* prefix sum
+* from itertools import accumulate
+* nums = [1,2,3,4]
+* arr = list(accumulate(nums)) = [1,3,6,10]
+
 操作
 * len([1, 2, 3]) >> 3
 * [1, 2, 3] + [4, 5, 6] >> [1, 2, 3, 4, 5, 6]
