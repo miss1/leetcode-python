@@ -82,6 +82,11 @@ String to Number
 * num = int(s)
 * float_num = float(s)
 
+截取字符串
+* s = 'hello'
+* s[start: end] -> 不包含end
+* s[1: 3] -> 'el'
+
 
 正则
 * import re
