@@ -8,6 +8,7 @@ Create
 
 get
 * tinydict1['abc']
+* tinydict1.get('abc', 'a') -> 获取key为abc的值，如果不存在则返回默认值a
 
 update & add
 * tinydict1['abc'] = 8
