@@ -46,4 +46,4 @@
 ### Best Time to Buy & Sell Stock / State Machine
 * 多个状态
 * 列举出所有状态，分析各个状态之间的关系，构建dp公式
-* 309, 714
+* 309, 714, 121, 123
