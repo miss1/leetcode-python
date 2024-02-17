@@ -1,9 +1,9 @@
 ## Heap (堆)
 
 heapq
-* heapq.heapify(x): 将list转换成最小堆，堆顶最小
-* heapq.heappop(heap): 弹出堆顶（最小值）
-* heapq.heappush(heap, item)： 插入一个值
+* heapq.heapify(x): 将list转换成最小堆，堆顶最小, O(n)
+* heapq.heappop(heap): 弹出堆顶（最小值）, O(logn)
+* heapq.heappush(heap, item)： 插入一个值, O(logn)
 
 最大堆
 * 先将list中的值全部取负数，再转成堆。
